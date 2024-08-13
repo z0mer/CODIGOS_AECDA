@@ -5,10 +5,10 @@
 # • (c) Faça a análise de complexidade do seu código
 
 BuscarValor (v,n,k) 
-for i = 0 in n:  #c1 n+1
-  if v[1] == k: #c2 n
-    return True #c3 0
-return False    #c4 1
+para i = 0 ate n:  #c1 n+1
+  se v[1] == k: #c2 n
+    retorna True #c3 0
+retorna False    #c4 1
 
 #T(n) = c1(n+1) + c2n + c4
 #T(n) = c1n + c1 + c2n + c4 
