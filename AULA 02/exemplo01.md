@@ -11,3 +11,8 @@ INSERTION-SORT(V, n)                #c1
       j = j - 1                     #c8 = 0
     V[j + 1] = chave                #c9 = 0
 ```
+
+```
+c2n + c3n + c5n + c6n + c9n
+an
+```
