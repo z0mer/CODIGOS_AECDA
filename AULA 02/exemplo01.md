@@ -1,21 +1,13 @@
-# Análise do Pseudocódigo
+# Análise do Pseudocódigo (21.08.2024)
 
 ```
-INSERTION-SORT(V, n)
-  chave = V[1]
-  //insira na posicao correta
-  j = i - 1
-  enquanto j >= 0 e V[j] > chave
-    V[j + 1] = V[j]
-    j = j - 1
-  V[j + 1] = chave
+INSERTION-SORT(V, n)                #c1
+  para i = 1 ate n                  #c2 = n
+    chave = V[1]                    #c3 = n  
+    //insira na posicao correta     #c4 = --  
+    j = i - 1                       #c5 = n
+    enquanto j >= 0 e V[j] > chave  #c6 = n
+      V[j + 1] = V[j]               #c7 = 0
+      j = j - 1                     #c8 = 0
+    V[j + 1] = chave                #c9 = 0
 ```
-c1  
-c2 n
-c3 n
-c4 --
-c5 n
-c6 n
-c7 0
-c8 0
-c9 n 
